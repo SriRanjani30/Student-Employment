@@ -66,3 +66,58 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+        form input[type="submit"] {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Student Employment Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="jobs">
+        <h2>Available Jobs</h2>
+        <ul>
+            <li>Part-time Web Developer</li>
+            <li>Library Assistant</li>
+            <li>Campus Tour Guide</li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This is a student-created employment page where students can find part-time jobs on campus. We are committed to helping students gain valuable work experience while completing their studies.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Student Employment Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
